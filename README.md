@@ -5,3 +5,7 @@ This simple turborepo repository uses npm and nextjs. On the latest version of n
 This is happening for me on node version `18.15.0` and NPM version `9.6.1`.
 
 I did some testing and found that the last version of nextjs that does not cause this issue is version `13.1.6`.
+
+In the `apps` directory I setup two barebones nextjs starters. `latest` causes the issue and `older` does not.
+
+Hopefully this is somewhat helpful to tracking down the issue. Thanks!
